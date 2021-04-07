@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Intent intent = new Intent(this,Activity2.class) ;
         if (yes.isChecked()) {
             String yesStr = "Yes" ;
-            intent.putExtra("Are you a studen ?", yesStr) ;
+            intent.putExtra("Are you a student ?", yesStr) ;
         } else if (no.isChecked()) {
             String noStr = "No" ;
             intent.putExtra("Are you a student ?" , noStr ) ;
