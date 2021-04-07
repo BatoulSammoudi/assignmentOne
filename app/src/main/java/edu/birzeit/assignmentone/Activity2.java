@@ -19,9 +19,9 @@ public class Activity2 extends AppCompatActivity {
         gender = findViewById(R.id.gender) ;
         student = findViewById(R.id.student) ;
         city = findViewById(R.id.city) ;
-        String data = getIntent().getStringExtra("FirstName") ;
-        String last = getIntent().getStringExtra("LastName") ;
-        String address2 = getIntent().getStringExtra("Address") ;
+        String data = getIntent().getStringExtra("FirstName:") ;
+        String last = getIntent().getStringExtra("LastName:") ;
+        String address2 = getIntent().getStringExtra("Address:") ;
         String gender2 = getIntent().getStringExtra("Gender") ;
         String city2 = getIntent().getStringExtra("City") ;
         String student2 = getIntent().getStringExtra("Are you a student ?") ;
